@@ -17,10 +17,10 @@ from model_utils import get_yolo, color_picker_fn, get_system_stat
 
 p_time = 0
 
-st.sidebar.title('Насйтроки')
+st.sidebar.title('Settings')
 # Choose the model
 model_type = st.sidebar.selectbox(
-    'Choose YOLO Model', ('YOLO Model', 'Yyolov8', 'yolov8')
+    'Choose YOLO Model', ('YOLO Model', 'yolov7', 'yolov8')
 )
 
 st.title(f'{model_type} Predictions')
