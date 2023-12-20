@@ -11,8 +11,6 @@ RUN apt-get update && \
     libxext6 \
     git
 
-# WORKDIR /home/alexandrz/Projects
-
 RUN git clone https://github.com/Jerrehy/YoloV8-App.git App
 WORKDIR /App
 RUN pip install -r requirements.txt
